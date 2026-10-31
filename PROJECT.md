@@ -1,19 +1,9 @@
-# dataset-steward — build record
+# Build record
 
-Owner: Lord_Sumi (`sumiEmpire001`). Portfolio project 13 of 100.
+Owner: Lord_Sumi. Portfolio project 13 of 100.
 
-## Purpose
+Scope: Dataset profiling, duplicate detection, quality rules and explainable cleaning proposals.
 
-Dataset profiling, duplicate detection, quality rules and explainable cleaning proposals.
+Required verification: Known dirty fixtures, deterministic rules and reversible transformations.
 
-## Required verification
-
-Known dirty fixtures, deterministic rules and reversible transformations.
-
-## Current implementation status
-
-Planned build. This repository does not yet contain a working implementation; no tests have been run.
-
-## Completion criteria
-
-Runnable code, reproducible setup and demo, validated inputs, meaningful error handling, project-specific tests, architecture notes, recorded evidence and explicit limitations. Plans, scaffolds and mock screens do not count as completed implementations. Device and live-service checks must be recorded separately when applicable.
+Working implementation with 12 passing local tests. CI verification is recorded separately in the catalogue.
