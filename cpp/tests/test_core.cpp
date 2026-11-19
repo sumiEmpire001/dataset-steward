@@ -1,0 +1,3 @@
+#include "EmbeddedCore.h"
+#include <cassert>
+int main(){using namespace lord_sumi;NumericQualityGate g(0,100);assert(g.inspect("12.5")==Quality::Valid);assert(g.inspect("-1")==Quality::OutOfRange);assert(g.inspect("1e9")==Quality::Invalid);assert(g.inspect(nullptr)==Quality::Missing);auto s=g.snapshot();assert(s.accepted==1&&s.rejected==3&&s.missing==1);NumericQualityGate bad(10,0);assert(bad.inspect("5")==Quality::Fault);}
